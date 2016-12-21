@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="My Open web projects">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script>
 
-		</script>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.yellow-red.min.css" />
-	</head>
-	<body>
-		<div class="mdl-card">
-			<div class="mdl-card__title">
-				<a href="/Qi/index.html">Qi</a>	
-			</div>
-		</div>
-		<div>
-			<div class="mdl-card__title">
-				<a href="/TVL-Homepage">TVL-Homepage/index.html</a>	
-			</div>
-		</div>
+<head>
+	<title>Title</title>
+	<meta charset="utf-8">
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+		@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+		@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+		body {
+			font-family: 'Droid Serif';
+		}
 		
-		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
-	</body>
+		h1,
+		h2,
+		h3 {
+			font-family: 'Yanone Kaffeesatz';
+			font-weight: normal;
+		}
+		
+		.remark-code,
+		.remark-inline-code {
+			font-family: 'Ubuntu Mono';
+		}
+	</style>
+</head>
+
+<body>
+	<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+	<script>
+      var slideshow = remark.create({
+				sourceUrl: '/presentation.md'
+			});
+    </script>
+</body>
+
 </html>
