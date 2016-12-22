@@ -95,6 +95,9 @@ class: center
 - object/relational
 
 --
+- inheritence
+
+--
 - structured/unstructured data store
 
 --
@@ -108,9 +111,6 @@ class: center
 
 --
 - views (materialized)
-
---
-- inheritence
 
 --
 - advanced type system
