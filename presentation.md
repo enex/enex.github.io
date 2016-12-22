@@ -56,7 +56,12 @@ template: types
   - graph databases
         - Neo4j (ebay, Walmart)
         - Core Data (Apple)
---
+![](/ne4j.png)
+---
+template: types
+  - graph databases
+        - Neo4j (ebay, Walmart)
+        - Core Data (Apple)
   - key-value-databases
         - Google Big Table
         - memcached (many vendors for caching)
