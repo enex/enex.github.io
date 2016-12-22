@@ -34,6 +34,7 @@ class: center, middle
 - relational/SQL - databases
 
 --
+  - SQLite (Android, iOS, Mac, Windows10, Firefox, Chrome, Safari, Skype, iTunes, Dropbox, Adobe Lightroom)
   - Postgres (Zanlando, Skype, Instagram)
   - MySql (Facebook, Symantec, Uber)
 
@@ -54,6 +55,8 @@ class: center, middle
   - key-value-databases
         - Google Big Table
         - memcached (many vendors for caching)
+???
+sqlite is the most widly used database
 
 ---
 class: center
@@ -302,14 +305,55 @@ CREATE TABLE tasks.user(
 ```
 
 ---
+# Postgres example - insert a task
+
+```sql
+INSERT INTO tasks(title, tags)
+VALUES ('finish presentation', ARRAY['english', 'presentation']);
+```
+---
+# Postgres example - all tasks
+
+```sql
+SELECT * FROM tasks;
+```
+---
+# Postgres example - all task that are not done
+
+```sql
+SELECT * FROM tasks WHERE done = false;
+```
+---
+# Postgres example - number of undone tasks
+
+```sql
+SELECT count(*) FROM tasks WHERE done = false;
+```
+
+---
+# Postgres example - tasks tagged with english
+
+```sql
+SELECT * FROM tasks WHERE tags @> ARRAY['english'];
+```
+
+---
 class: center, middle
 # Any Questions?
 
 ---
 # Quiz
 
-- When would you use a database
+- why are databases widespread use?
 
+--
+- When would you only use a spreadsheet?
+
+--
+- What would you use a database for?
+
+--
+- Problems of databases for the end user?
 
 ---
 # Sources
