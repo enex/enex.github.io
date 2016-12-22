@@ -29,7 +29,7 @@ class: center, middle
 6. Sources
 
 ---
-
+name: types
 # Types of Databases
 - relational/SQL - databases
 
@@ -47,7 +47,12 @@ class: center, middle
 --
         - MongoDB (Bosch, Expedia)
         - CouchDB (LHC, BBC) 
---
+???
+sqlite is the most widly used database
+
+---
+template: types
+
   - graph databases
         - Neo4j (ebay, Walmart)
         - Core Data (Apple)
@@ -59,6 +64,9 @@ class: center, middle
 sqlite is the most widly used database
 
 ---
+
+---
+
 class: center
 # Postgres
 <img src="https://www.postgresql.org/media/img/about/press/elephant.png" width="60%">
@@ -359,3 +367,5 @@ class: center, middle
 # Sources
 
 - http://readwrite.com/2010/08/26/lhc-couchdb/
+- https://www.postgresql.org/
+- https://neo4j.com/
