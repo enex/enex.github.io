@@ -56,7 +56,7 @@ template: types
   - graph databases
         - Neo4j (ebay, Walmart)
         - Core Data (Apple)
-![](/ne4j.png)
+![](/neo4j.png)
 ---
 template: types
   - graph databases
