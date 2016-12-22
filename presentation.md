@@ -29,21 +29,18 @@ class: center, middle
 6. Sources
 
 ---
-name: types
 # Types of Databases
 - relational/SQL - databases
 
 --
-  - SQLite (Android, iOS, Mac, Windows10, Firefox, Chrome, Safari, Skype, iTunes, Dropbox, Adobe Lightroom)
-  - Postgres (Zanlando, Skype, Instagram)
-  - MySql (Facebook, Symantec, Uber)
-
+    - SQLite (Android, iOS, Mac, Windows10, Firefox, Chrome, Safari, Skype, iTunes, Dropbox, Adobe Lightroom)
+    - Postgres (Zanlando, Skype, Instagram)
+    - MySql (Facebook, Symantec, Uber)
 --
 - NoSQL - databases
 
 --
-  - document databases
-
+    - document databases
 --
         - MongoDB (Bosch, Expedia)
         - CouchDB (LHC, BBC) 
@@ -51,24 +48,38 @@ name: types
 sqlite is the most widly used database
 
 ---
-template: types
+# Types of Databases
+- relational/SQL - databases
+    - SQLite (Android, iOS, Mac, Windows10, Firefox, Chrome, Safari, Skype, iTunes, Dropbox, Adobe Lightroom)
+    - Postgres (Zanlando, Skype, Instagram)
+    - MySql (Facebook, Symantec, Uber)
+- NoSQL - databases
+    - document databases
+        - MongoDB (Bosch, Expedia)
+        - CouchDB (LHC, BBC) 
+    - graph databases
+        - Neo4j (ebay, Walmart)
+        - Core Data (Apple)
 
-  - graph databases
-        - Neo4j (ebay, Walmart)
-        - Core Data (Apple)
-![](/neo4j.png)
+<img class="righ" style="margin-top: -6em; position: absolute; right: 0;" src="/neo4j.png" alt="">
 ---
-template: types
-  - graph databases
+# Types of Databases
+- relational/SQL - databases
+    - SQLite (Android, iOS, Mac, Windows10, Firefox, Chrome, Safari, Skype, iTunes, Dropbox, Adobe Lightroom)
+    - Postgres (Zanlando, Skype, Instagram)
+    - MySql (Facebook, Symantec, Uber)
+- NoSQL - databases
+    - document databases
+        - MongoDB (Bosch, Expedia)
+        - CouchDB (LHC, BBC) 
+    - graph databases
         - Neo4j (ebay, Walmart)
         - Core Data (Apple)
-  - key-value-databases
+    - key-value-databases
         - Google Big Table
         - memcached (many vendors for caching)
 ???
 sqlite is the most widly used database
-
----
 
 ---
 
